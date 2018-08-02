@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/goodguest_icons"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/goodguest_contnet"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxEms="14"
+            android:text="哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+            android:layout_below="@+id/goodguest_icons"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/goodguest_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="90dp"
+            android:text="dfashgdjsagwurghjrgrghsdhgfsdafasg"
+            android:layout_below="@+id/goodguest_contnet"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/goodguest_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/goodguest_icons"
+            android:textColor="@color/color_db5044" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
